@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>VirtCons</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<div class='controller'>
+  <canvas class='myMonitor' id='myMonitor' height='160px' width='240px'></canvas>
+  <button class='buttons startselect start'></button>
+  <button class='buttons startselect select'></button>
+  <button class='buttons dpad up'></button>
+  <button class='buttons dpad down'></button>
+  <button class='buttons dpad left'></button>
+  <button class='buttons dpad right'></button>
+  <button class='buttons key a'>A</button>
+  <button class='buttons key b'>B</button>
+</div>
+<div class='card'>
+<h1>Virtual Console</h1>
+<!--   <button class='buttons key restart'>Power</button> -->
+  <FORM>
+<INPUT TYPE="button" class="buttons restart" onClick="history.go(0)" VALUE="Power">
+</FORM>
+ </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
